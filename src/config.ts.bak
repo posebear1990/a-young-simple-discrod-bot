@@ -1,0 +1,2 @@
+export const token = '<这里填你自己的机器人token>';
+export const loginMessage = '发送 长者+1s , 就告诉你长者的人生经验';
