@@ -1,3 +1,5 @@
+// @ts-ignore
+
 import * as Discord from 'discord.js';
 import * as config from './config.js';
 import * as fs from 'fs';
@@ -35,7 +37,7 @@ client
       .map(({ id }) => {
         return id;
       })[0];
-
+    // @ts-ignore 
     client.channels.get(channelId).send(config.loginMessage);
   })
   .on('guildCreate', guild => {
@@ -44,7 +46,7 @@ client
       .map(({ id }) => {
         return id;
       })[0];
-
+    // @ts-ignore
     guild.client.channels.get(channelId).send(config.loginMessage);
   });
 

@@ -1,4 +1,4 @@
-import * as config from './config.js';
+import * as config from '../config';
 import * as fs from 'fs';
 
   const news = fs.readdirSync('./news');

@@ -9,5 +9,6 @@ coverage
 *.log
 src/config.ts
 .vscode/
+news/
 
 package-lock.json
